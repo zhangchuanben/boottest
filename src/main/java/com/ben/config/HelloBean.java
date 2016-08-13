@@ -7,6 +7,7 @@ public class HelloBean {
 	private String name;
 
 	public String getName() {
+		System.out.println("Step1 Branch Only");
 		return name;
 		
 	}
